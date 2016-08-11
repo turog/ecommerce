@@ -1,0 +1,11 @@
+// Index page style
+.products-grid {
+  .product-card {
+    width:220px;
+    margin:auto;
+    
+    .product-info {
+      .title { height: 4em; }
+    }
+  }
+}

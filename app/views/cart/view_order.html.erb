@@ -1,0 +1,19 @@
+<div class="column">
+  <ul class="products-grid no-bullet row">
+    <% @line_items.each do |line_item| %>
+      <li class="large-3 medium-4 small-12 column">
+        <div class="product-card padly">
+          
+          <div class="product-info ell glassy-bg padmy padlx">
+            <div class="name">
+              <li><%= line_item.product.name %></li>
+            </div>
+            
+            
+          </div>
+        </div>
+      </li>
+        
+    <% end %>
+<%= link_to "Proceed to Checkout?", checkout_path %>
+ 
